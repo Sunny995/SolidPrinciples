@@ -6,7 +6,6 @@ namespace SRP
 {
     public class AcademicsLevarage : Academics
     {
-        public int marks;
         public override void Scores(string name, int marks)
         {
             marks += 50;
