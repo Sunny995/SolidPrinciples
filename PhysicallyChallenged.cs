@@ -8,6 +8,7 @@ namespace SRP
     {
         public string Name;
         public int Id;
+        public int marks;
         public PhysicallyChallenged(string name, int id)
         {
             this.Name = name;
@@ -15,7 +16,7 @@ namespace SRP
         }
         public override void Scores(string name, int marks)
         {
-            marks += 50;
+            this.marks += 50;
             Console.WriteLine(name + "=>" + marks);
         }
     }
